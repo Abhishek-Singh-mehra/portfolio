@@ -87,10 +87,10 @@ html, body {
   font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
-  text-align: right;
+  text-align: left;
   margin-top: 19px;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 38px;
 }
 
 .more-about-me .div {
@@ -432,18 +432,24 @@ html, body {
   background-color: #1e1e1e;
   border-radius: 50px;
   overflow: hidden;
+  align-items: center; 
+   /* Center content horizontally */
+  justify-content: flex-start; /* Align content to top */
 }
 
 .more-about-me .ellipse {
-  margin-left: 32px;
+  margin-left: 0;
+  margin-top: 35px;
   width: 82px;
   height: 82px;
-  margin-top: 35px;
   object-fit: cover;
+  display: block;
 }
 
 .more-about-me .cloud-deployment {
-  margin-left: 32px;
+  align-self : flex-start;
+  margin-left: 35px;
+  margin-top: 27px;
   width: 240px;
   height: 29px;
   margin-top: 27px;
@@ -451,16 +457,16 @@ html, body {
   font-weight: 700;
   color: #ffffff;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.more-about-me .experienced_in {
-  margin-left: 30px;
+.more-about-me .experienced-in {
+  margin-left: 0;
+  margin-top: 26px;
   width: 317px;
   height: 66px;
-  margin-top: 26px;
   font-family: "Inter-ExtraLight", Helvetica;
   font-weight: 200;
   color: #d9d9d9;
@@ -1239,7 +1245,7 @@ html, body {
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%; /* Show more of the upper part (face) */
   display: block;
   margin: 6px auto 0 auto;
   background: #fff;

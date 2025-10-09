@@ -164,10 +164,10 @@ html, body {
   font-family: "Inter-Light", Helvetica;
   font-weight: 300;
   color: #757070;
-  font-size: 24px;
+  font-size: 18px;
   text-align: right;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 1.4;
 }
 
 .home-page .button {
@@ -180,6 +180,7 @@ html, body {
   height: 78px;
   display: flex;
   gap: 11px;
+  margin-top: 32px !important; /* Move the button down */
 }
 
 .home-page .text-wrapper-4 {
@@ -192,6 +193,7 @@ html, body {
   font-size: 24px;
   letter-spacing: 0;
   line-height: normal;
+  margin-bottom: 6px !important; /* Add space below the text */
 }
 
 .home-page .fast-forward {
@@ -199,6 +201,7 @@ html, body {
   height: 77.82px;
   aspect-ratio: 1;
   object-fit: cover;
+  margin-top: 0 !important; /* Remove any top margin */
 }
 
 .home-page .frame-4 {
@@ -265,39 +268,42 @@ html, body {
 }
 
 .home-page .rectangle-2 {
-  height: 344.94px;
-  margin-top: 0;
-  background-color: #d9d9d9;
+ height: 344.94px;
+  width: 100%;
   border-radius: 40px;
+  object-fit: cover;
 }
 
 .home-page .group-2 {
-  margin-left: 12px;
+  margin-left: 0;
   width: 247.31px;
   height: 59.01px;
   display: flex;
   gap: 19.8px;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: center;
 }
 
 .home-page .text-wrapper-6 {
   margin-top: 4.2px;
-  width: 166.53px;
+  width: auto;
+  min-width: 166.53px;
   height: 49.96px;
   font-family: "Inter-Light", Helvetica;
   font-weight: 300;
   color: #000000;
-  font-size: 40px;
+  font-size: 24px;
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+  white-space: nowrap;
 }
 
 .home-page .img {
   margin-top: 0;
-  width: 59.01px;
-  height: 59.01px;
+  width: 36px;
+  height: 36px;
   aspect-ratio: 1;
   object-fit: cover;
 }
@@ -312,40 +318,42 @@ html, body {
 }
 
 .home-page .rectangle-3 {
-  margin-left: 0;
-  height: 344.94px;
-  margin-top: 0;
-  background-color: #d9d9d9;
+ height: 344.94px;
+  width: 100%;
   border-radius: 40px;
+  object-fit: cover;
 }
 
 .home-page .group-4 {
-  margin-left: 18.9px;
+  margin-left: 0;
   width: 252.22px;
   height: 60.19px;
   display: flex;
   gap: 20.2px;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: center;
 }
 
 .home-page .text-wrapper-7 {
   margin-top: 4.2px;
-  width: 169.86px;
+  width: auto;
+  min-width: 169.86px;
   height: 50.96px;
   font-family: "Inter-Light", Helvetica;
   font-weight: 300;
   color: #000000;
-  font-size: 40px;
+  font-size: 24px;
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+  white-space: nowrap;
 }
 
 .home-page .fast-forward-2 {
   margin-top: 0;
-  width: 60.19px;
-  height: 60.19px;
+  width: 36px;
+  height: 36px;
   aspect-ratio: 1;
   object-fit: cover;
 }
@@ -373,30 +381,34 @@ html, body {
 }
 
 .home-page .group-6 {
-  margin-left: 7.9px;
+  margin-left: 0;
   width: 253.46px;
   height: 56.73px;
   display: flex;
   gap: 22.6px;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-page .text-wrapper-8 {
   margin-top: 4.3px;
-  width: 172.14px;
+  width: auto;
+  min-width: 172.14px;
   height: 51.64px;
   margin-left: 0;
   font-family: "Inter-Light", Helvetica;
   font-weight: 300;
   color: #000000;
-  font-size: 40px;
+  font-size: 24px;
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+  white-space: nowrap;
 }
 
 .home-page .fast-forward-3 {
-  width: 56.73px;
-  height: 56.73px;
+  width: 36px;
+  height: 36px;
   aspect-ratio: 1;
   object-fit: cover;
 }
@@ -411,30 +423,34 @@ html, body {
 }
 
 .home-page .group-8 {
-  margin-left: 23.5px;
+  margin-left: 0;
   width: 243.11px;
   height: 58px;
   display: flex;
   gap: 19.4px;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-page .text-wrapper-9 {
   margin-top: 4.1px;
-  width: 163.68px;
+  width: auto;
+  min-width: 163.68px;
   height: 49.1px;
   margin-left: 0;
   font-family: "Inter-Light", Helvetica;
   font-weight: 300;
   color: #000000;
-  font-size: 40px;
+  font-size: 24px;
   text-align: right;
   letter-spacing: 0;
   line-height: normal;
+  white-space: nowrap;
 }
 
 .home-page .fast-forward-4 {
-  width: 58px;
-  height: 58px;
+  width: 36px;
+  height: 36px;
   aspect-ratio: 1;
   object-fit: cover;
 }
@@ -705,4 +721,10 @@ img {
   max-width: 100%;
   height: auto;
   visibility: visible;
+}
+
+.group-2 img,
+.group-4 img {
+  margin-right: 12px;
+  vertical-align: middle;
 }
